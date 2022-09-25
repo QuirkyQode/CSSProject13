@@ -1,0 +1,66 @@
+@media screen and (max-width: 600px)  {
+    nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        align-content: space-between;
+        margin: 50px;
+    }
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        align-content: space-between;
+        margin: 50px;
+    }
+    nav li {
+        padding: 15px 0;
+    }
+    .head {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        align-content: space-between;
+        padding: 0;
+    }
+    .head img {
+        width: 400px;
+    }
+    .head-left {
+        width: auto;
+    }
+    .head-left h1 {
+        font-size: 50px;
+        padding-bottom: 50px;
+    }
+    main {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        align-content: space-between;
+        padding: 100px;
+        justify-items: baseline;
+    }
+    main img {
+        width: 400px;
+    }
+    .main-right{
+        width: auto;
+    }
+    .feat {
+        text-align: center;
+    }
+    .feat-cards {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        align-content: space-between;
+        padding: 100px;
+    }
+}

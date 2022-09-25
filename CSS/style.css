@@ -1,1 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins";
+}
 
+
+header {
+    background-color: #672bbc;
+    color: #fff;
+    padding: 70px 100px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+}
+nav li {
+    list-style: none;
+    padding-left: 30px;
+}
+nav img {
+    width: 80px;
+}
+button {
+    background-color: #1bbcef;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 15px;
+}
+.head {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0;
+}
+.head img {
+    width: 600px;
+}
+.head-left {
+    width: 35%;
+}
+.head-left h1 {
+    font-size: 50px;
+    padding-bottom: 50px;
+}
+main {
+    display: flex;
+    justify-content: space-between;
+    padding: 100px;
+    justify-items: baseline;
+}
+main img {
+    width: 600px;
+}
+.main-right{
+    width: 30%;
+}
+.main-right h1 {
+    padding-bottom: 50px;
+}
+.main-right p {
+    padding-bottom: 30px;
+    color: #555555;
+}
+.main-right li h2{
+    padding-bottom: 20px;
+}
+.main-right li:first-child {
+    list-style-image: url("../images/SAAS\ landing\ page/orange-arrow.svg");
+}
+.main-right li:nth-child(2) {
+    list-style-image: url("../images/SAAS\ landing\ page/green-arrow.svg");
+}
+.main-right li:last-child {
+    list-style-image: url("../images/SAAS\ landing\ page/blue-arrow.svg");
+}
+
+
+img {
+    width: 400px;
+}
+
+.feat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: space-between;
+    justify-content: space-between;
+}
+.feat-cards {
+    display: flex;
+    justify-content: space-around;
+    padding: 100px;
+}
+.feat-cards img {
+    width: 50px;
+    padding-bottom: 60px;
+}
+.feat-cards .card {
+    box-shadow: 2px 2px #afafaf;
+    margin: 30px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 30px;
+}
+
+.feat-cards .card h1 {
+    padding-bottom: 10px;
+    font-size: 25px;
+}
+.feat-cards .card p {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.card-active {
+    box-shadow: 2px 2px #afafaf;
+    margin: 30px;
+    padding-top: 20px;
+    text-align: center;
+    border-radius: 30px;
+}
+
+
+.card-active-text {
+    background-color: #672bbc;
+    border-radius: 30px;
+    color: #fff;
+    padding: 20px 0;
+}
+.card-active-text h1 {
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+.card-active-text p {
+    padding-left: 20px;
+    padding-right: 20px;
+}
